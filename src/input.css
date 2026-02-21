@@ -20,5 +20,8 @@ header{
     opacity: 0.8;
 }
 .timer{
-    opacity: 0.9;
+    opacity: 0.95;
+}
+.h1-about{
+    padding-top: 2rem;
 }
