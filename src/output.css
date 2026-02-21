@@ -570,20 +570,12 @@ video {
   margin-top: 2rem;
 }
 
-.mt-\[5rem\] {
-  margin-top: 5rem;
-}
-
-.mt-\[rem\] {
-  margin-top: rem;
-}
-
-.mt-\[3rem\] {
-  margin-top: 3rem;
-}
-
 .mt-\[4rem\] {
   margin-top: 4rem;
+}
+
+.mt-\[5rem\] {
+  margin-top: 5rem;
 }
 
 .flex {
