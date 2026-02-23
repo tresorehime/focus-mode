@@ -34,10 +34,11 @@ body {
 }
 
 header {
-    background-image: url('fond3.jpg');
+    background-image: url('fond.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
+    
     background-position: 25%;
 }
 
