@@ -31,7 +31,7 @@ start.addEventListener("click", () => {
 });
 reset.addEventListener("click", () => {
     clearInterval(interval);
-    timer.textContent = "20:00";
+    timer.textContent = "25:00";
     interval = null;
 
 });
