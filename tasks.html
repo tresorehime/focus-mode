@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/task.css">
+
+</head>
+
+<body >
+    <header class="header2">
+        <div class="flex justify-between items-center head fixed w-[50%] rounded-br-sm">
+            <img src="studium.png" alt="" class="w-40 logo ">
+            <nav>
+                <ul class="flex justify-center items-center text-2xl gap-8 mr-6">
+                    <li><a href="index.html" class="text-white font-medium">Home</a></li>
+                    <li><a href="index.html#about" class="text-white font-medium">About</a></li>
+                    <li><a href="tasks.html" class="text-white font-medium">Advice</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="flex flex-col gap-8justify-center items-center">
+        <div class="advice">
+            <img src="conseil.webp" alt="" class="img-advice">
+            <img src="tips2.jpg" alt="" class="img-advice">
+            <img src="tips.jpg" alt="" class="img-advice">
+        </div>
+        <div class="mt-[2rem] p-6 text-center remember shadow-2xl">
+            <h2 class="text-2xl font-semibold mb-2  font-serif">_ Remember This _</h2>
+            <p class="text-gray-700 text-xl py-2">
+                Take a moment to appreciate what you’ve accomplished today. Be proud of every step, no matter how small.
+            </p>
+        </div>
+        <button id="session" class="px-6 py-2 rounded-full bg-[#518958] text-white 
+                     transition-all duration-300 hover:scale-105 hover:shadow-xl mt-[2rem]  text-xl session">
+            Start focus session
+        </button>
+        <div class="mt-[2rem] timer-container">
+            <div>
+                <img src="study.jpg" alt="" class="study-img">
+            </div>
+
+            <div class="w-[350px] p-10 rounded-3xl  shadow-2xl text-center bg-stone-400 timer">
+
+                <h1 class="text-6xl tracking-widest text-gray-100 mb-8">
+                    25:00
+                </h1>
+
+                <div class="flex justify-center gap-4">
+
+                    <button class="px-6 py-2 rounded-full  bg-[#518958] text-white 
+                     transition-all duration-300 hover:scale-105 hover:shadow-xl text-xl start">
+                        Start
+                    </button>
+
+                    <button class="px-6 py-2 rounded-full bg-[#b91c1c] text-white 
+                     transition-all duration-300 hover:scale-105 hover:shadow-xl text-xl reset">
+                        Reset
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src=".src/task.js"></script>
+</body>
+
+</html>

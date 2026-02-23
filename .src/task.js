@@ -1,3 +1,11 @@
+const session = document.getElementById("session");
+const time = document.querySelector(".timer-container")
+session.addEventListener("click", ()=>{
+ time.style.display = "flex";
+ 
+})
+
+
 const start = document.querySelector(".start");
 const reset = document.querySelector(".reset");
 const timer = document.querySelector(".timer h1");

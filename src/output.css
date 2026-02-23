@@ -675,6 +675,15 @@ video {
   background-color: rgb(168 162 158 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#b91c1c\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity, 1));
+}
+
 .p-10 {
   padding: 2.5rem;
 }
@@ -803,7 +812,7 @@ video {
   box-sizing: border-box;
 }
 
-header {
+.header {
   background-image: url('fond3.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -818,7 +827,7 @@ header {
 }
 
 .timer {
-  opacity: 0.95;
+  opacity: 0.97;
 }
 
 main {

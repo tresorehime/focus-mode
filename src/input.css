@@ -2,13 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header {
+.header {
     background-image: url('fond3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,10 +21,11 @@ header {
     background-color: rgb(161, 161, 161);
     border-radius: 0 0 4rem 0;
     opacity: 0.9;
+    
 }
 
 .timer {
-    opacity: 0.95;
+    opacity: 0.97;
 }
 
 main {

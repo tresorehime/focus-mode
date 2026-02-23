@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+.head {
+    background-color: rgb(161, 161, 161);
+    border-radius: 0 0 4rem 0;
+    opacity: 0.8;
+   
+}
+.remember{
+    background-color:whitesmoke;
+    border-radius: 1rem 1rem;
+    padding-top: 2rem;
+}
+.advice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.img-advice{
+    height: 80vh;
+    border-radius: 2rem;
+    margin-top: 4rem;
+}
+
+.study-img{
+    height: 35vh;
+    border-radius: 1rem;
+}
+.timer-container{
+    display: none;
+    justify-items: center;
+    gap: 8rem;
+    
+}
+.timer{
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
