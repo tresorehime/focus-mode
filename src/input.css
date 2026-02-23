@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,6 +8,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --bg-main: #ffffff;
+    --text-main: #000000;
+    --card-bg:rgb(161, 161, 161);
+    --header-bg: rgba(161, 161, 161, 0.9);
+}
+
+.dark {
+    --bg-main: #0f172a;
+    --text-main: #f8fafc;
+    --card-bg: #1e293b;
+    --header-bg: rgba(59, 65, 78, 0.95);
+}
+.dark .h1-about{
+    color: var(--text-main);
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .header {
@@ -27,6 +51,23 @@
 .timer {
     opacity: 0.97;
 }
+.dark header {
+    background-image: url('fond.jpg');
+}
+
+.head {
+    background-color: var(--header-bg);
+    border-radius: 0 0 4rem 0;
+}
+
+.timer,
+.card {
+    background-color: var(--card-bg);
+    transition: all 0.3s ease;
+}
+#theme-toggle{
+    padding-right: 1rem;
+}
 
 main {
     padding-top: 2rem;
@@ -35,8 +76,6 @@ main {
 .h1-about {
     padding-bottom: 1.5rem;
 }
-
-
 
 .grid {
     display: grid;

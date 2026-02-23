@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Studium</title>
+
     <link rel="stylesheet" href="./src/output.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -20,16 +22,20 @@
                     <li><a href="#about" class="text-white font-medium">About</a></li>
                     <li><a href="tasks.html" class="text-white font-medium">Advice</a></li>
                 </ul>
-
             </nav>
+
+            <button id="theme-toggle" class="text-2xl ml-2 mr-3 transition hover:scale-110">
+                <i class="fas fa-moon"></i>
+            </button>
         </div>
+
         <div class="flex justify-center items-center pt-[15rem] gap-[19rem]">
             <div>
                 <h1 class="font-serif text-4xl text-white font-bold">Focus Mode</h1>
                 <p class="text-white text-2xl font-medium">Eliminate distractions. Stay productive.</p>
-                <button class="px-6 py-2 rounded-full  bg-[#518958] text-white 
+                <button class="px-6 py-2 rounded-full bg-[#518958] text-white 
                      transition-all duration-30 hover:scale-105 hover:shadow-xl mt-[2rem] text-xl">
-                    <a href="tasks.html">See Study Habits</a>
+                    <a href="tasks.html">Start studying</a>
                 </button>
             </div>
             <div class="">
@@ -42,8 +48,8 @@
 
                     <div class="flex justify-center gap-4">
 
-                        <button class="px-6 py-2 rounded-full  bg-[#518958] text-white 
-                     transition-all duration-300 hover:scale-105 hover:shadow-xl text-xl start session">
+                        <button class="px-6 py-2 rounded-full bg-[#518958] text-white 
+                     transition-all duration-300 hover:scale-105 hover:shadow-xl text-xl start">
                             Start
                         </button>
 
@@ -56,47 +62,56 @@
             </div>
         </div>
     </header>
+
     <main>
         <section id="about" class="about  flex justify-center items-center flex-col">
-            <h1 class=' h1-about text-center font-bold text-3xl text-black font-serif'>_  About  _</h1>
+            <h1 class=' h1-about text-center font-bold text-3xl text-black font-serif'>_ About _</h1>
             <div class="flex justify-center items-center gap-[4rem]">
                 <img src="productive.jpg" alt="" class="duck w-[40%]">
+
                 <div>
                     <p class="text-xl font-sans p-about">
                         Studium is a simple and modern productivity website designed to help students stay focused and
                         organized.
-                        It provides a clean workspace where users improve their study habits.
+
+                        It provides a clean workspace where users can manage their tasks, track their progress, and
+                        improve
+                        their study habits.
                     </p>
+
                     <div class="flex flex-col justify-center items-center">
                         <div class="grid mt-[5rem]">
-                            <div class="p-6 shadow-xl rounded-2xl bg-gray-100 flex flex-col items-center gap-4">
-                                <i class="fas fa-bolt text-5xl  text-blue-500"></i>
+
+                            <div class="p-6 shadow-xl rounded-2xl card flex flex-col items-center gap-4 ">
+                                <i class="fas fa-bolt text-5xl text-blue-500"></i>
                                 <h3 class="text-2xl font-semibold font-serif">Fast & Simple</h3>
-                                <p class="text-black text-xl">
+                                <p class="text-xl">
                                     Studium is easy to use and helps you focus immediately without distractions.
                                 </p>
                             </div>
-                            <div class="p-6 shadow-xl rounded-2xl bg-gray-100 flex flex-col items-center gap-4">
-                                <i class="fas fa-lightbulb text-5xl text-blue-500"></i>
-                                <h3 class="text-2xl font-semibold font-serif">Start Small</h3>
+                            <div class="p-6 shadow-xl rounded-2xl  card flex flex-col items-center gap-4">
+                                <i class="fas fa-check-circle text-5xl text-blue-500"></i>
+                                <h3 class="text-2xl font-semibold font-serif">Dark Mode</h3>
                                 <p class="text-black text-xl">
-                                    Begin with small daily habits to build consistency and see real progress in your studies.
+                                    Study comfortably anytime with a dark mode option for your eyes.
                                 </p>
                             </div>
+
                         </div>
 
                         <button class="px-6 py-2 rounded-full bg-[#518958] text-white 
                      transition-all duration-300 hover:scale-105 hover:shadow-xl mt-[4rem] text-xl ">
-                            <a href="tasks.html">Get Study Tips</a>
+                            <a href="tasks.html">Go Focus Mode</a>
                         </button>
                     </div>
-
                 </div>
             </div>
-
         </section>
     </main>
-   <script src=".src/counter.js"></script>
+
+    <script src=".src/counter.js"></script>
+    <script src=".src/theme.js"></script>
+
 </body>
 
 </html>
